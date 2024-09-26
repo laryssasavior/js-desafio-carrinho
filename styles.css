@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #6a0dad; /* Roxo */
+}
+
+.store {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-list, .cart {
+    width: 40%;
+}
+
+.product {
+    background-color: #fff;
+    border: 2px solid #6a0dad;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #540e91;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart ul li {
+    margin-bottom: 10px;
+}
+
+.checkout-btn {
+    width: 100%;
+    background-color: #540e91;
+}
+
+#total-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
